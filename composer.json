@@ -1,0 +1,23 @@
+{
+  "name": "sendflit/sendflit",
+  "description": "The official SendFlit SDK for PHP — transactional email API for applications and AI agents",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["sendflit", "email", "transactional", "api", "ai agents"],
+  "homepage": "https://sendflit.com",
+  "require": {
+    "php": ">=7.4",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "files": ["src/SendFlit.php"]
+  },
+  "authors": [
+    {"name": "SendFlit"}
+  ],
+  "support": {
+    "issues": "https://github.com/Sendflit/sendflit-php/issues",
+    "source": "https://github.com/Sendflit/sendflit-php"
+  }
+}
